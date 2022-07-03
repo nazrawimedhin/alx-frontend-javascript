@@ -1,4 +1,4 @@
-import taskBlock from "./1-block-scoped.js";
+import taskBlock from "../0-constants";
 
 console.log(taskBlock(true));
 console.log(taskBlock(false));
