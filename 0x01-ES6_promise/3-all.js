@@ -5,7 +5,7 @@ export default function handleProfileSignup() {
   const user = createUser();
 
   return Promise.all([upld, user]).then((data) => {
-    const [body] = data[0];
+    const body = data[0];
     const fname = data[1].firstName;
     const lname = data[1].lastName;
     // eslint-disable-next-line
