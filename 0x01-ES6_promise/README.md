@@ -150,3 +150,23 @@ module.exports = {
 
 * Finally…
 * Don’t forget to run **npm install** from the terminal of your project folder to install all necessary project dependencies.
+
+## Response Data Format
+
+* uploadPhoto returns a response with the format:
+
+```javascript
+{
+  status: 200,
+  body: 'photo-profile-1',
+}
+```
+
+* createUser returns a response with the format
+
+```javascript
+{
+  firstName: 'Guillaume',
+  lastName: 'Salva',
+}
+```
