@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+// eslint-disable-next-line import/extensions
 import getFullBudgetObject from '../9-getFullBudget.js';
 
 const fullBudget = getFullBudgetObject(20, 50, 10);

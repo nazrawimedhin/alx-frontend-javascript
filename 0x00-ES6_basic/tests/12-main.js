@@ -1,9 +1,11 @@
-import createEmployeesObject from "../11-createEmployeesObject.js";
-import createReportObject from "../12-createReportObject.js";
+/* eslint-disable no-console */
+/* eslint-disable import/extensions */
+import createEmployeesObject from '../11-createEmployeesObject.js';
+import createReportObject from '../12-createReportObject.js';
 
 const employees = {
-	...createEmployeesObject("engineering", ["Bob", "Jane"]),
-	...createEmployeesObject("marketing", ["Sylvie"]),
+  ...createEmployeesObject('engineering', ['Bob', 'Jane']),
+  ...createEmployeesObject('marketing', ['Sylvie']),
 };
 
 const report = createReportObject(employees);

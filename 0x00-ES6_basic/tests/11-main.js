@@ -1,3 +1,5 @@
-import createEmployeesObject from "../11-createEmployeesObject.js";
+// eslint-disable-next-line import/extensions
+import createEmployeesObject from '../11-createEmployeesObject.js';
 
-console.log(createEmployeesObject("Software", ["Bob", "Sylvie"]));
+// eslint-disable-next-line no-console
+console.log(createEmployeesObject('Software', ['Bob', 'Sylvie']));
