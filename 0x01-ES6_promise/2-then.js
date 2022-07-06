@@ -6,5 +6,6 @@ export default function handleResponseFromAPI(promise) {
   return promise
     .then(() => obj)
     .catch(() => new Error())
+    // eslint-disable-next-line
     .finally(() => { console.log('Got a response from the API'); });
 }
