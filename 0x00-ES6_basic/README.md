@@ -79,7 +79,7 @@ $ npm -v
 
 * babel.config.js
 
-```json
+```javascript
 module.exports = {
   presets: [
     [
@@ -96,7 +96,7 @@ module.exports = {
 
 * .eslintrc.js
 
-```json
+```javascript
 module.exports = {
   env: {
     browser: false,
@@ -134,5 +134,5 @@ module.exports = {
 };
 ```
 
-Finally…
-Don’t forget to run **npm install** from the terminal of your project folder to install all necessary project dependencies.
+* Finally…
+* Don’t forget to run **npm install** from the terminal of your project folder to install all necessary project dependencies.
