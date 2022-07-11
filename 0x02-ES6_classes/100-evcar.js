@@ -1,4 +1,5 @@
-import Car from './10-car';
+// eslint-disable-next-line import/extensions
+import Car from './10-car.js';
 
 export default class EVCar extends Car {
   constructor(brand, motor, color, range) {
