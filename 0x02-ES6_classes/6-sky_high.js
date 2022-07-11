@@ -1,5 +1,6 @@
 /* eslint-disable no-underscore-dangle */
-import Building from './5-building';
+// eslint-disable-next-line import/extensions
+import Building from './5-building.js';
 
 export default class SkyHighBuilding extends Building {
   constructor(sqft, floors) {
