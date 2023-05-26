@@ -1,6 +1,6 @@
-# Frontend-Javascript
+# alx-frontend-javascript
 
-Module of **JavaScript**, carried out during **Full Stack Software Engineering studies** at **[ALX School](https://www.alxafrica.com)**.
+Module of **alx-frontend-javascript**, carried out during **Full Stack Software Engineering studies** at **[ALX School](https://www.alxafrica.com)**.
 
 ## Technologies
 
